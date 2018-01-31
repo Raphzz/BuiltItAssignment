@@ -19,9 +19,9 @@
 		979452852020F7870029D694 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979452842020F7870029D694 /* Reachability.swift */; };
 		979452872020F7E30029D694 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979452862020F7E30029D694 /* Weather.swift */; };
 		979452892020FC9F0029D694 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979452882020FC9F0029D694 /* Temperature.swift */; };
+		9794528B2021DB530029D694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9794528A2021DB530029D694 /* ViewController.swift */; };
 		97A709212020E129003A06B4 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A709202020E129003A06B4 /* Networking.swift */; };
 		97BC9F2C2020DFCA00D3CE15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC9F2B2020DFCA00D3CE15 /* AppDelegate.swift */; };
-		97BC9F2E2020DFCA00D3CE15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC9F2D2020DFCA00D3CE15 /* ViewController.swift */; };
 		97BC9F312020DFCA00D3CE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97BC9F2F2020DFCA00D3CE15 /* Main.storyboard */; };
 		97BC9F332020DFCA00D3CE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97BC9F322020DFCA00D3CE15 /* Assets.xcassets */; };
 		97BC9F362020DFCA00D3CE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97BC9F342020DFCA00D3CE15 /* LaunchScreen.storyboard */; };
@@ -40,10 +40,10 @@
 		979452842020F7870029D694 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		979452862020F7E30029D694 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		979452882020FC9F0029D694 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		9794528A2021DB530029D694 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97A709202020E129003A06B4 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		97BC9F282020DFCA00D3CE15 /* BuiltItAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuiltItAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BC9F2B2020DFCA00D3CE15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97BC9F2D2020DFCA00D3CE15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../New Group/ViewController.swift"; sourceTree = "<group>"; };
 		97BC9F302020DFCA00D3CE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97BC9F322020DFCA00D3CE15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97BC9F352020DFCA00D3CE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		979452722020EC940029D694 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				97BC9F2D2020DFCA00D3CE15 /* ViewController.swift */,
+				9794528A2021DB530029D694 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -307,9 +307,9 @@
 				9794526E2020E4DF0029D694 /* Entity.swift in Sources */,
 				979452892020FC9F0029D694 /* Temperature.swift in Sources */,
 				979452782020EF240029D694 /* Day.swift in Sources */,
-				97BC9F2E2020DFCA00D3CE15 /* ViewController.swift in Sources */,
 				979452812020F3A40029D694 /* ForecastCell.swift in Sources */,
 				9794526B2020E4910029D694 /* Result.swift in Sources */,
+				9794528B2021DB530029D694 /* ViewController.swift in Sources */,
 				97BC9F2C2020DFCA00D3CE15 /* AppDelegate.swift in Sources */,
 				9794527D2020F2920029D694 /* DayHeaderCell.swift in Sources */,
 				979452852020F7870029D694 /* Reachability.swift in Sources */,
